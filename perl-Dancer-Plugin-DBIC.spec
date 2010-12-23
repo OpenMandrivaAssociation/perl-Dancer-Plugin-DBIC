@@ -1,5 +1,5 @@
 %define upstream_name    Dancer-Plugin-DBIC
-%define upstream_version 0.1501
+%define upstream_version 0.1504
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
