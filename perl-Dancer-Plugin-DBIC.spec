@@ -13,7 +13,6 @@ Source0:    http://www.cpan.org/modules/by-module/Dancer/%{upstream_name}-%{upst
 BuildRequires: perl(Dancer)
 BuildRequires: perl(DBIx::Class)
 BuildRequires: perl(DBIx::Class::Schema::Loader)
-BuildRequires: perl(SAL::Abstract)
 BuildRequires: perl(Test::Exception)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
