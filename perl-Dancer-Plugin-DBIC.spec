@@ -1,15 +1,15 @@
 %define upstream_name    Dancer-Plugin-DBIC
-%define upstream_version 0.1504
+%define upstream_version 0.1802
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%perl_convert_version 0.1802
+Release:	1
 
 Summary:	DBIx::Class interface for Dancer applications
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Dancer/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Dancer/Dancer-Plugin-DBIC-0.1802.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Dancer)
@@ -61,4 +61,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sun Oct 17 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.150.100-1mdv2011.0
 + Revision: 586525
 - import perl-Dancer-Plugin-DBIC
+
 
