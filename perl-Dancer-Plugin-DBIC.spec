@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.1802
-Release:	2
+Release:	3
 
 Summary:	DBIx::Class interface for Dancer applications
 License:	GPL+ or Artistic
