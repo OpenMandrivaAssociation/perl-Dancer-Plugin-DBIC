@@ -1,15 +1,15 @@
 %define upstream_name    Dancer-Plugin-DBIC
-%define upstream_version 0.1802
+%define upstream_version 0.2104
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.1802
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	DBIx::Class interface for Dancer applications
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Dancer/Dancer-Plugin-DBIC-0.1802.tar.gz
+Url:		https://github.com/ironcamel/Dancer-Plugin-DBIC
+Source0:	https://cpan.metacpan.org/authors/id/I/IR/IRONCAMEL/Dancer-Plugin-DBIC-0.2104.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
