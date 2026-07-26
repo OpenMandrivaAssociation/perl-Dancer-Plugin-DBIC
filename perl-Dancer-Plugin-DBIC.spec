@@ -1,9 +1,7 @@
 %define upstream_name    Dancer-Plugin-DBIC
-%define upstream_version 0.2104
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.2104
+Release:	2
 
 Summary:	DBIx::Class interface for Dancer applications
 License:	GPL+ or Artistic
@@ -29,7 +27,7 @@ configuration file. So you no longer have to write boilerplate DBIC setup
 code.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
